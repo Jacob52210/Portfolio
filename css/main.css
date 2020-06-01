@@ -185,12 +185,17 @@
           transition-delay: 0.55s;
 }
 
+.menu-nav_item:nth-child(5) {
+  -webkit-transition-delay: 0.65s;
+          transition-delay: 0.65s;
+}
+
 .about {
   padding-bottom: 2rem;
 }
 
 .about_bio-image {
-  height: 50vh;
+  height: 30vh;
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.6))), url(../img/project-1.jpg) center center;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.6)), url(../img/project-1.jpg) center center;
@@ -220,7 +225,8 @@
 }
 
 .about_bio .text-secondary {
-  padding: 1rem;
+  font-size: 2rem;
+  padding: 2rem;
 }
 
 .about .jobs {
@@ -237,6 +243,11 @@
   background: #414141;
   padding: 0.5rem;
   border-bottom: 5px solid #05fc1a;
+}
+
+.about .jobs_job p {
+  text-indent: 10%;
+  margin-top: 1rem;
 }
 
 .about .jobs_job h2, .about .jobs_job h3 {
@@ -380,6 +391,105 @@
 }
 
 .projects footer {
+  -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
+          transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
+.about {
+  padding-bottom: 2rem;
+}
+
+.about_bio-image {
+  height: 30vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.6))), url(../img/project-1.jpg) center center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.6)), url(../img/project-1.jpg) center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.about_bio-image p {
+  margin-bottom: 2rem;
+}
+
+.about_bio {
+  width: 80%;
+  text-align: center;
+}
+
+.about_bio .text-secondary {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.about .jobs {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.about .jobs_job {
+  background: #414141;
+  padding: 0.5rem;
+  border-bottom: 5px solid #05fc1a;
+}
+
+.about .jobs_job .skill_topic {
+  margin-bottom: 2rem;
+}
+
+.about .jobs_job .skill_topic .html-skills-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.about .jobs_job h2, .about .jobs_job h3, .about .jobs_job h6 {
+  text-align: center;
+}
+
+.about .jobs_job h2, .about .jobs_job h3 {
+  margin: 0.5rem 0;
+}
+
+.about .jobs_job h6 {
+  margin: 0.3rem 0;
+}
+
+.about .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about footer {
   -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
