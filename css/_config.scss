@@ -7,6 +7,11 @@ $secondary-color: #05fc1a;
     margin: 0;
 }
 
+a {
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+}
+
 @mixin transition-ease {
     transition: all 0.5s ease-in-out;
 }

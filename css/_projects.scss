@@ -87,10 +87,16 @@
         opacity: 0;
         color: set-text-color($secondary-color);
         @include transition-ease;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
 
         &:hover {
             color: set-text-color($secondary-color);
             cursor: pointer;
+            
         }
     }
 
