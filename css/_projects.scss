@@ -23,7 +23,6 @@
         }
     }
 
-
     &_items {
         width: 60vw;
         margin: 2rem auto 0 auto;
@@ -96,11 +95,9 @@
             padding-right: 10px;
         }
         
-
         &:hover {
             color: set-text-color($secondary-color);
             cursor: pointer;
-            
         }
     }
 
