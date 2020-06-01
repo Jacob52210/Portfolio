@@ -390,6 +390,10 @@ a {
           justify-content: center;
 }
 
+.projects_btn i {
+  padding-right: 10px;
+}
+
 .projects_btn:hover {
   color: #000;
   cursor: pointer;

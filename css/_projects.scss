@@ -91,6 +91,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        i {
+            padding-right: 10px;
+        }
         
 
         &:hover {
