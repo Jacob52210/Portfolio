@@ -26,12 +26,12 @@
         width: 80%;
         text-align: center;
         
-
         .text-secondary {
             font-size: 2rem;
             padding: 2rem;
         }
     }
+
     .jobs {
         width: 60vw;
         margin: 2rem auto 0 auto;
@@ -64,8 +64,6 @@
     }
 
     footer {
-        transform: 
-            rotate(90deg)
-            translate(-3rem, -5rem);
+        transform: rotate(90deg) translate(-3rem, -5rem);
     }
 }

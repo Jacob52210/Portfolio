@@ -33,8 +33,6 @@
         }
     }
 
-
-
     .projects {
         &_items {
             grid-template-columns: repeat(2, 1fr);
@@ -54,6 +52,14 @@
     .projects {
         &_items {
             grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
+@include media-xl {
+    .nav {
+        .menu-nav_item {
+            padding-right: 5rem;
         }
     }
 }

@@ -287,8 +287,8 @@ a {
 .projects_bio-image {
   height: 30vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.6))), url(../img/project-1.jpg) center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.6)), url(../img/project-1.jpg) center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.6))), url(../img/project-1.jpg) center center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.6)), url(../img/project-1.jpg) center center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -600,6 +600,12 @@ a {
   .projects_items {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav .menu-nav_item {
+    padding-right: 5rem;
   }
 }
 

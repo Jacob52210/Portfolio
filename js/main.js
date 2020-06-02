@@ -9,6 +9,7 @@ let showMenu = false;
 menuBtn.addEventListener('click', toggleMenu);
 
 function toggleMenu() {
+    
     if(!showMenu) {
         hamburger.classList.add('open');
         nav.classList.add('open');
@@ -17,6 +18,7 @@ function toggleMenu() {
 
         showMenu = true;
     }
+
     else {
         hamburger.classList.remove('open');
         nav.classList.remove('open');
