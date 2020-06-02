@@ -1,7 +1,7 @@
 # Portfolio
 *By: Jacob Flora*
 ## Description
-*This is my profesional portfolio listing my skills, work history, goals, and a brief biography.*
+*This is my professional portfolio listing my skills, work history, goals, and a brief biography.*
 #### Hosted [HERE]( https://jacob52210.github.io/Portfolio/ "My Portfolio").
 ___
 ## User Stories
