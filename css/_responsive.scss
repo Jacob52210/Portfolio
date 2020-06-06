@@ -1,65 +1,94 @@
 @include media-md {
-    .menu-btn {
-        visibility: hidden;
-    }
+	.menu-btn {
+		visibility: hidden;
+	}
 
-    .nav {
-        visibility: visible;
-        opacity: .88;
+	.nav {
+		visibility: visible;
 
-        .menu-nav {
-            display: block;
-            transform: translateY(0);
-            height: 100%;
-            background: $primary-color;
-            text-align: center;
+		.menu-nav {
+			display: block;
+			transform: translateY(0);
+			height: 100%;
+			background: transparent;
+			text-align: center;
 
-            &_item {
-                display: inline;
-                padding-right: 1rem;
-            }
+			&_item {
+				display: inline;
+				padding-right: 1rem;
+			}
 
-            &_link {
-                font-size: 1.5rem;
-                font-weight: 400;
-                padding: 1rem 0;
-            }
-        }
-    }
+			&_link {
+				font-size: 1.7rem;
+				font-weight: 400;
+				padding: 1rem 0;
 
-    .about_bio-image {
-        .text-secondary {
-            font-size: 3rem;
-        }
-    }
+				&:hover {
+					font-size: 2rem;
+					padding: 0;
+				}
+			}
+		}
+	}
 
-    .projects {
-        &_items {
-            grid-template-columns: repeat(2, 1fr);
-        }
+	.home {
+		h1 {
+			margin: 0;
+		}
 
-        .text-secondary {
-            font-size: 3rem;
-        }
-    }
+		h2 {
+			font-size: 2rem;
+		}
 
-    .contact_list {
-        grid-template-columns: repeat(2, 1fr);
-    }
+		&_name {
+			font-size: 7rem;
+			padding-bottom: 0;
+		}
+	}
+
+	.about {
+		h6 {
+			font-size: 1rem;
+		}
+		.about_bio-image {
+			.text-secondary {
+				font-size: 4rem;
+			}
+		}
+	}
+	.projects {
+		&_items {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		.text-secondary {
+			font-size: 4rem;
+		}
+	}
+
+	.contact {
+		h2 {
+			font-size: 4rem;
+		}
+	}
+
+	.contact_list {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 @include media-lg {
-    .projects {
-        &_items {
-            grid-template-columns: repeat(3, 1fr);
-        }
-    }
+	.projects {
+		&_items {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
 }
 
 @include media-xl {
-    .nav {
-        .menu-nav_item {
-            padding-right: 5rem;
-        }
-    }
+	.nav {
+		.menu-nav_item {
+			padding-right: 5rem;
+		}
+	}
 }
