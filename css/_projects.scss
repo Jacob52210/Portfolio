@@ -1,113 +1,114 @@
 .projects {
-    padding-bottom: 2rem;
+	padding-bottom: 2rem;
 
-    &_bio-image{
-        height: 30vh;
-        width: 100%;
-        background: 
-            linear-gradient(
-                to right,
-                rgba($primary-color, 0.9),
-                rgba($primary-color, 0.6)
-            ),
-            url(../img/project-1.jpg) center center;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-end;
+	&_bio-image {
+		height: 30vh;
+		width: 100%;
+		background: linear-gradient(
+				to right,
+				rgba($primary-color, 0.9),
+				rgba($primary-color, 0.6)
+			),
+			url(../img/project-1.jpg) center center;
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-end;
 
-        .text-secondary {
-            font-size: 2rem;
-            margin-bottom: 2rem;
-        }
-    }
+		.text-secondary {
+			font-size: 3rem;
+			font-family: 'Metal Mania', cursive;
+			text-shadow: 8px 2px 8px black;
+			margin-bottom: 2rem;
+		}
+	}
 
-    &_items {
-        width: 60vw;
-        margin: 2rem auto 0 auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 2rem;
-    }
+	&_items {
+		width: 60vw;
+		margin: 2rem auto 0 auto;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 2rem;
+	}
 
-    &_item {
-        position: relative;
-        border-bottom: 5px solid $secondary-color;
-        overflow: hidden;
-        text-align: center;
-        font-size: 1rem;
+	&_item {
+		position: relative;
+		border-bottom: 5px solid $secondary-color;
+		overflow: hidden;
+		text-align: center;
+		font-size: 1rem;
 
-        h1 {
-            margin-bottom: 1rem;
-        }
+		h1 {
+			margin-bottom: 1rem;
+		}
 
-        img {
-            width: 100%;
-        }
+		img {
+			width: 100%;
+		}
 
-        &::after {
-            content: '';
-            position: absolute;
-            top: 100%;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            background: $secondary-color;
-            opacity: 0;
-            @include transition-ease;
-        }
+		&::after {
+			content: '';
+			position: absolute;
+			top: 100%;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			background: $secondary-color;
+			opacity: 0;
+			@include transition-ease;
+		}
 
-        &:hover {
-            &::after {
-                top: 0;
-                opacity: 0.9;
-            }
+		&:hover {
+			&::after {
+				top: 0;
+				opacity: 0.9;
+			}
 
-            .projects_btn {
-                opacity: 1;
-                font-size: 1rem;
-            }
-        }
-    }
+			.projects_btn {
+				opacity: 1;
+				font-size: 1rem;
+			}
+		}
+	}
 
-    &_btns {
-        position: absolute;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        z-index: 1;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-        text-align: center;
-    }
+	&_btns {
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		z-index: 1;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		text-align: center;
+	}
 
-    &_btn {
-        opacity: 0;
-        color: set-text-color($secondary-color);
-        @include transition-ease;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+	&_btn {
+		opacity: 0;
+		color: set-text-color($secondary-color);
+		@include transition-ease;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 
-        i {
-            padding-right: 10px;
-        }
-        
-        &:hover {
-            color: set-text-color($secondary-color);
-            cursor: pointer;
-        }
-    }
+		i {
+			padding-right: 10px;
+		}
 
-    .social-icons {
-        display: flex;
-        flex-direction: column;
-    }
+		&:hover {
+			color: set-text-color($secondary-color);
+			cursor: pointer;
+		}
+	}
 
-    footer {
-        transform: rotate(90deg) translate(-3rem, -5rem);
-    }
+	.social-icons {
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer {
+		transform: rotate(90deg) translate(-3rem, -5rem);
+	}
 }

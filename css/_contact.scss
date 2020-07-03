@@ -1,34 +1,35 @@
 .contact {
-    height: 100%;
-    padding-top: 30vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: 
-        linear-gradient(
-            to right,
-            rgba($primary-color, 0.9),
-            rgba($primary-color, 0.6)
-        ),
-        url(../img/family-pic.jpg) center top;
-    background-size: cover;
-    text-align: center;
+	height: 100%;
+	padding-top: 30vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(
+			to right,
+			rgba($primary-color, 0.9),
+			rgba($primary-color, 0.6)
+		),
+		url(../img/family-pic.jpg) center top;
+	background-size: cover;
+	text-align: center;
 
-    h2 {
-        font-size: 3rem;
-        margin-bottom: 2rem;
-    }
+	h2 {
+		font-size: 3rem;
+		font-family: 'Metal Mania', cursive;
+		text-shadow: 8px 2px 8px black;
+		margin-bottom: 2rem;
+	}
 
-    &_list {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 2rem;
-        font-size: 1.5rem;
-    }
+	&_list {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 2rem;
+		font-size: 1.5rem;
+	}
 
-    .social-icons {
-        position: initial;
-        margin-top: 2rem;
-    }
+	.social-icons {
+		position: initial;
+		margin-top: 2rem;
+	}
 }
