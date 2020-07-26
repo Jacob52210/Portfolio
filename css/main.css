@@ -502,6 +502,47 @@ a {
           justify-content: space-evenly;
 }
 
+.about .jobs_job .skill_topic .html-skills-container .fa-html5 {
+  color: #ff7b00;
+}
+
+.about .jobs_job .skill_topic .html-skills-container .fa-css3-alt {
+  color: #1c51ff;
+}
+
+.about .jobs_job .skill_topic .html-skills-container .fa-js-square {
+  color: #ffe81c;
+}
+
+.about .jobs_job .skill_topic .html-skills-container .fa-python {
+  color: black;
+}
+
+.about .jobs_job .skill_topic .html-skills-container .fa-bootstrap {
+  color: #731cff;
+}
+
+.about .jobs_job .skill_topic .html-skills-container .fa-github {
+  color: black;
+}
+
+.about .jobs_job .skill_topic .html-skills-container .fa-node-js {
+  color: green;
+}
+
+.about .jobs_job .skill_topic .html-skills-container .fa-react {
+  color: #00b7ff;
+}
+
+.about .jobs_job .skill_topic .html-skills-container b {
+  color: black;
+}
+
+.about .jobs_job .skill_topic .html-skills-container .logos {
+  width: 15px;
+  height: auto;
+}
+
 .about .jobs_job h2,
 .about .jobs_job h3,
 .about .jobs_job h6 {
@@ -550,6 +591,124 @@ a {
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.6)), url(../img/family-pic.jpg) center top;
   background-size: cover;
   text-align: center;
+}
+
+.contact .messageMeContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.contact .messageMeContainer .messageMe {
+  background: none;
+  background-color: #272727;
+  color: white;
+  opacity: 0.7;
+  padding: 1rem;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid #05fc1a;
+  height: 50px;
+  word-break: break-word;
+}
+
+.contact .messageMeContainer .messageMe::-webkit-input-placeholder {
+  color: #05fc1a;
+  opacity: 0.7;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.contact .messageMeContainer .messageMe:-ms-input-placeholder {
+  color: #05fc1a;
+  opacity: 0.7;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.contact .messageMeContainer .messageMe::-ms-input-placeholder {
+  color: #05fc1a;
+  opacity: 0.7;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.contact .messageMeContainer .messageMe::placeholder {
+  color: #05fc1a;
+  opacity: 0.7;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .messageMeContainer .messageMe:focus {
+  outline: none;
+}
+
+.contact .messageMeContainer .email {
+  background: none;
+  background-color: #272727;
+  color: white;
+  opacity: 0.7;
+  padding: 1rem;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid #05fc1a;
+}
+
+.contact .messageMeContainer .email::-webkit-input-placeholder {
+  color: #05fc1a;
+  opacity: 0.7;
+}
+
+.contact .messageMeContainer .email:-ms-input-placeholder {
+  color: #05fc1a;
+  opacity: 0.7;
+}
+
+.contact .messageMeContainer .email::-ms-input-placeholder {
+  color: #05fc1a;
+  opacity: 0.7;
+}
+
+.contact .messageMeContainer .email::placeholder {
+  color: #05fc1a;
+  opacity: 0.7;
+}
+
+.contact .messageMeContainer .email:focus {
+  outline: none;
+}
+
+.contact .messageMeContainer .messageMeSubBtn {
+  background: none;
+  border: none;
+}
+
+.contact .messageMeContainer .messageMeSubBtn:focus {
+  outline: none;
+}
+
+.contact .messageMeContainer .fa-paper-plane {
+  cursor: pointer;
+  color: white;
+  margin: auto;
+}
+
+.contact .messageMeContainer .fa-paper-plane:hover {
+  color: #05fc1a;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .contact h2 {
@@ -625,6 +784,21 @@ a {
   }
   .contact h2 {
     font-size: 4rem;
+  }
+  .contact .messageMeContainer {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .contact .messageMeContainer .messageMe {
+    width: 250px;
+  }
+  .contact .messageMeContainer .email {
+    width: 250px;
   }
   .contact_list {
     -ms-grid-columns: (1fr)[2];

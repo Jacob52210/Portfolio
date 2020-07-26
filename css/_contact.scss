@@ -5,14 +5,80 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: linear-gradient(
-			to right,
-			rgba($primary-color, 0.9),
-			rgba($primary-color, 0.6)
-		),
+	background: linear-gradient(to right, rgba($primary-color, 0.9), rgba($primary-color, 0.6)),
 		url(../img/family-pic.jpg) center top;
 	background-size: cover;
 	text-align: center;
+
+	.messageMeContainer {
+		display: flex;
+		flex-direction: column;
+		width: fit-content;
+		height: fit-content;
+
+		.messageMe {
+			background: none;
+			background-color: $primary-color;
+			color: white;
+			opacity: 0.7;
+			padding: 1rem;
+			margin: 10px;
+			border: none;
+			border-bottom: 2px solid $secondary-color;
+			height: 50px;
+			word-break: break-word;
+
+			&::placeholder {
+				color: $secondary-color;
+				opacity: 0.7;
+				align-items: center;
+			}
+
+			&:focus {
+				outline: none;
+			}
+		}
+
+		.email {
+			background: none;
+			background-color: $primary-color;
+			color: white;
+			opacity: 0.7;
+			padding: 1rem;
+			margin: 10px;
+			border: none;
+			border-bottom: 2px solid $secondary-color;
+
+			&::placeholder {
+				color: $secondary-color;
+				opacity: 0.7;
+			}
+
+			&:focus {
+				outline: none;
+			}
+		}
+
+		.messageMeSubBtn {
+			background: none;
+			border: none;
+
+			&:focus {
+				outline: none;
+			}
+		}
+
+		.fa-paper-plane {
+			cursor: pointer;
+			color: white;
+			margin: auto;
+
+			&:hover {
+				color: $secondary-color;
+				transition: 1s;
+			}
+		}
+	}
 
 	h2 {
 		font-size: 3rem;

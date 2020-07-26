@@ -4,11 +4,7 @@
 	&_bio-image {
 		height: 30vh;
 		width: 100%;
-		background: linear-gradient(
-				to right,
-				rgba($primary-color, 0.9),
-				rgba($primary-color, 0.6)
-			),
+		background: linear-gradient(to right, rgba($primary-color, 0.9), rgba($primary-color, 0.6)),
 			url(../img/project-1.jpg) center center;
 		background-size: cover;
 		display: flex;
@@ -53,6 +49,47 @@
 					display: flex;
 					flex-direction: row;
 					justify-content: space-evenly;
+
+					.fa-html5 {
+						color: rgb(255, 123, 0);
+					}
+
+					.fa-css3-alt {
+						color: rgb(28, 81, 255);
+					}
+
+					.fa-js-square {
+						color: rgb(255, 232, 28);
+					}
+
+					.fa-python {
+						color: rgb(0, 0, 0);
+					}
+
+					.fa-bootstrap {
+						color: rgb(115, 28, 255);
+					}
+
+					.fa-github {
+						color: black;
+					}
+
+					.fa-node-js {
+						color: green;
+					}
+
+					.fa-react {
+						color: rgb(0, 183, 255);
+					}
+
+					b {
+						color: black;
+					}
+
+					.logos {
+						width: 15px;
+						height: auto;
+					}
 				}
 			}
 
