@@ -785,13 +785,16 @@ a {
     font-size: 2rem;
     padding: 0;
   }
-  .home h1 {
+  .home .name-container .home_name {
+    font-size: 6rem;
+  }
+  .home .name-container h1 {
     margin: 0;
   }
-  .home h2 {
+  .home .name-container h2 {
     font-size: 2rem;
   }
-  .home_name {
+  .home .name-container_name {
     font-size: 7rem;
     padding-bottom: 0;
   }

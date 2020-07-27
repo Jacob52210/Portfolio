@@ -31,17 +31,22 @@
 	}
 
 	.home {
-		h1 {
-			margin: 0;
-		}
+		.name-container {
+			.home_name {
+				font-size: 6rem;
+			}
+			h1 {
+				margin: 0;
+			}
 
-		h2 {
-			font-size: 2rem;
-		}
+			h2 {
+				font-size: 2rem;
+			}
 
-		&_name {
-			font-size: 7rem;
-			padding-bottom: 0;
+			&_name {
+				font-size: 7rem;
+				padding-bottom: 0;
+			}
 		}
 	}
 
