@@ -17,5 +17,5 @@ ___
 ## Future Improvements
 * I would like to keep adding to my projects page.
 * I will add more skills as I learn them.
-* I will add more jobs that pertain to this industry to the as I get hired.
-* I'm going to add a LinkedIn account once I've made one.
+* I will add more jobs that pertain to this industry as I get hired.
+
