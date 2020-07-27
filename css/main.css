@@ -14,31 +14,57 @@ a {
 
 .home {
   height: 100%;
-  padding-top: 40vh;
-  overflow: hidden;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.6))), url(../img/headshot.jpg) center center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.6)), url(../img/headshot.jpg) center center;
-  background-size: cover;
+  overflow: hidden;
 }
 
-.home h2 {
+.home .name-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  width: 100vw;
+}
+
+.home .name-container h2 {
   font-size: 1.2rem;
+  font-weight: bolder;
 }
 
-.home_name {
+.home .name-container .home_name {
   font-size: 4rem;
   font-family: 'Metal Mania', cursive;
   text-shadow: 8px 2px 8px black;
   padding-bottom: 0;
   margin-bottom: 0;
+  position: relative;
 }
 
-.home_name--last {
+.home .name-container .home_name--last {
   color: #05fc1a;
+}
+
+.home .social-icons {
+  z-index: 1;
+}
+
+.home .vid {
+  position: absolute;
+  background-position: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
 }
 
 .menu-btn {
@@ -623,28 +649,28 @@ a {
 }
 
 .contact .messageMeContainer .messageMe::-webkit-input-placeholder {
-  color: #05fc1a;
+  color: white;
   opacity: 0.7;
   -webkit-box-align: center;
           align-items: center;
 }
 
 .contact .messageMeContainer .messageMe:-ms-input-placeholder {
-  color: #05fc1a;
+  color: white;
   opacity: 0.7;
   -ms-flex-align: center;
       align-items: center;
 }
 
 .contact .messageMeContainer .messageMe::-ms-input-placeholder {
-  color: #05fc1a;
+  color: white;
   opacity: 0.7;
   -ms-flex-align: center;
       align-items: center;
 }
 
 .contact .messageMeContainer .messageMe::placeholder {
-  color: #05fc1a;
+  color: white;
   opacity: 0.7;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -667,22 +693,22 @@ a {
 }
 
 .contact .messageMeContainer .email::-webkit-input-placeholder {
-  color: #05fc1a;
+  color: white;
   opacity: 0.7;
 }
 
 .contact .messageMeContainer .email:-ms-input-placeholder {
-  color: #05fc1a;
+  color: white;
   opacity: 0.7;
 }
 
 .contact .messageMeContainer .email::-ms-input-placeholder {
-  color: #05fc1a;
+  color: white;
   opacity: 0.7;
 }
 
 .contact .messageMeContainer .email::placeholder {
-  color: #05fc1a;
+  color: white;
   opacity: 0.7;
 }
 

@@ -1,31 +1,47 @@
 .home {
 	height: 100%;
-	padding-top: 40vh;
-	overflow: hidden;
-	align-items: center;
 	text-align: center;
-	background: linear-gradient(
-			to right,
-			rgba($primary-color, 0.9),
-			rgba($primary-color, 0.6)
-		),
-		url(../img/headshot.jpg) center center;
-	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
 
-	h2 {
-		font-size: 1.2rem;
+	.name-container {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		width: 100vw;
+
+		h2 {
+			font-size: 1.2rem;
+			font-weight: bolder;
+		}
+
+		.home_name {
+			font-size: 4rem;
+			font-family: 'Metal Mania', cursive;
+			text-shadow: 8px 2px 8px black;
+			padding-bottom: 0;
+			margin-bottom: 0;
+			position: relative;
+
+			&--last {
+				color: $secondary-color;
+			}
+		}
 	}
 
-	&_name {
-		font-size: 4rem;
-		font-family: 'Metal Mania', cursive;
-		text-shadow: 8px 2px 8px black;
-		padding-bottom: 0;
-		margin-bottom: 0;
-		//border-bottom: 2px solid set-text-color($primary-color);
+	.social-icons {
+		z-index: 1;
+	}
 
-		&--last {
-			color: $secondary-color;
-		}
+	.vid {
+		position: absolute;
+		background-position: center;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
 	}
 }
