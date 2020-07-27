@@ -543,6 +543,7 @@ a {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  text-align: center;
 }
 
 .about .jobs_job .skill_topic .html-skills-container .fa-html5 {
@@ -582,7 +583,7 @@ a {
 }
 
 .about .jobs_job .skill_topic .html-skills-container .logos {
-  width: 15px;
+  width: 28px;
   height: auto;
 }
 
