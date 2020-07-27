@@ -476,6 +476,7 @@ a {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  padding-top: 250px;
 }
 
 .about_bio-image p {
@@ -486,13 +487,29 @@ a {
 .about_bio {
   width: 80%;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_bio .headshot {
+  width: 150px;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 100px;
 }
 
 .about_bio .text-secondary {
   font-size: 3rem;
   font-family: 'Metal Mania', cursive;
   text-shadow: 8px 2px 8px black;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .about .jobs {

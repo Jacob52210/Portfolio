@@ -11,6 +11,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: flex-end;
+		padding-top: 250px;
 
 		p {
 			margin-bottom: 2rem;
@@ -21,12 +22,22 @@
 	&_bio {
 		width: 80%;
 		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.headshot {
+			width: 150px;
+			height: auto;
+			border: 3px solid black;
+			border-radius: 100px;
+		}
 
 		.text-secondary {
 			font-size: 3rem;
 			font-family: 'Metal Mania', cursive;
 			text-shadow: 8px 2px 8px black;
-			padding: 2rem;
+			padding: 1rem;
 		}
 	}
 
