@@ -100,16 +100,15 @@
 		&_link {
 			display: inline-block;
 			font-size: 2rem;
-			font-family: 'Metal Mania', cursive;
+			font-family: monospace;
 			text-shadow: 8px 2px 8px black;
 			text-transform: uppercase;
 			padding: 2rem 0;
-			font-weight: 300;
+			font-weight: 900;
 			@include transition-ease;
 
 			&:hover {
 				color: $secondary-color;
-				font-size: 2.3rem;
 			}
 		}
 	}

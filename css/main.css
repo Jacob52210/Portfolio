@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geostar+Fill&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -43,7 +44,7 @@ a {
 
 .home .name-container .home_name {
   font-size: 4rem;
-  font-family: 'Metal Mania', cursive;
+  font-family: 'Geostar Fill', cursive;
   text-shadow: 8px 2px 8px black;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -193,18 +194,17 @@ a {
 .nav .menu-nav_link {
   display: inline-block;
   font-size: 2rem;
-  font-family: 'Metal Mania', cursive;
+  font-family: monospace;
   text-shadow: 8px 2px 8px black;
   text-transform: uppercase;
   padding: 2rem 0;
-  font-weight: 300;
+  font-weight: 900;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .nav .menu-nav_link:hover {
   color: #05fc1a;
-  font-size: 2.3rem;
 }
 
 .menu-nav_item:nth-child(1) {
@@ -342,7 +342,6 @@ a {
 
 .projects_bio-image .text-secondary {
   font-size: 3rem;
-  font-family: 'Metal Mania', cursive;
   text-shadow: 8px 2px 8px black;
   margin-bottom: 2rem;
 }
@@ -507,7 +506,6 @@ a {
 
 .about_bio .text-secondary {
   font-size: 3rem;
-  font-family: 'Metal Mania', cursive;
   text-shadow: 8px 2px 8px black;
   padding: 1rem;
 }
@@ -757,7 +755,6 @@ a {
 
 .contact h2 {
   font-size: 3rem;
-  font-family: 'Metal Mania', cursive;
   text-shadow: 8px 2px 8px black;
   margin-bottom: 2rem;
 }
@@ -798,10 +795,6 @@ a {
     font-size: 1.7rem;
     font-weight: 400;
     padding: 1rem 0;
-  }
-  .nav .menu-nav_link:hover {
-    font-size: 2rem;
-    padding: 0;
   }
   .home .name-container .home_name {
     font-size: 6rem;
@@ -870,7 +863,7 @@ body {
   background: #272727;
   color: #fff;
   height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   line-height: 1.5;
 }
 

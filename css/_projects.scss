@@ -4,11 +4,7 @@
 	&_bio-image {
 		height: 30vh;
 		width: 100%;
-		background: linear-gradient(
-				to right,
-				rgba($primary-color, 0.9),
-				rgba($primary-color, 0.6)
-			),
+		background: linear-gradient(to right, rgba($primary-color, 0.9), rgba($primary-color, 0.6)),
 			url(../img/project-1.jpg) center center;
 		background-size: cover;
 		display: flex;
@@ -18,7 +14,6 @@
 
 		.text-secondary {
 			font-size: 3rem;
-			font-family: 'Metal Mania', cursive;
 			text-shadow: 8px 2px 8px black;
 			margin-bottom: 2rem;
 		}

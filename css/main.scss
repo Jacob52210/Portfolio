@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&display=swap');
 @import 'config';
 @import 'home';
 @import 'menu';
@@ -12,7 +13,7 @@ body {
 	background: $primary-color;
 	color: set-text-color($primary-color);
 	height: 100vh;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Courier New', Courier, monospace;
 	line-height: 1.5;
 }
 
