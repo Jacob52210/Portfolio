@@ -5,22 +5,26 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: linear-gradient(to right, rgba($primary-color, 0.9), rgba($primary-color, 0.6)),
-		url(../img/family-pic.jpg) center top;
+	background: linear-gradient(to right, rgba($primary-color, 0.6), rgba($primary-color, 0.6)),
+		url(../img/family-pic2.jpg) center top;
 	background-size: cover;
 	text-align: center;
+
+	h2 {
+		position: absolute;
+		top: 150px;
+	}
 
 	.messageMeContainer {
 		display: flex;
 		flex-direction: column;
 		width: fit-content;
 		height: fit-content;
+		padding-top: 20vh;
 
 		.messageMe {
 			background: none;
-			background-color: $primary-color;
 			color: white;
-			opacity: 0.7;
 			padding: 1rem;
 			margin: 10px;
 			border: none;
@@ -41,9 +45,7 @@
 
 		.email {
 			background: none;
-			background-color: $primary-color;
 			color: white;
-			opacity: 0.7;
 			padding: 1rem;
 			margin: 10px;
 			border: none;

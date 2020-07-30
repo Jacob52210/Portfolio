@@ -613,10 +613,15 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.6))), url(../img/family-pic.jpg) center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.6)), url(../img/family-pic.jpg) center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.6)), to(rgba(39, 39, 39, 0.6))), url(../img/family-pic2.jpg) center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.6)), url(../img/family-pic2.jpg) center top;
   background-size: cover;
   text-align: center;
+}
+
+.contact h2 {
+  position: absolute;
+  top: 150px;
 }
 
 .contact .messageMeContainer {
@@ -633,13 +638,12 @@ a {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  padding-top: 20vh;
 }
 
 .contact .messageMeContainer .messageMe {
   background: none;
-  background-color: #272727;
   color: white;
-  opacity: 0.7;
   padding: 1rem;
   margin: 10px;
   border: none;
@@ -683,9 +687,7 @@ a {
 
 .contact .messageMeContainer .email {
   background: none;
-  background-color: #272727;
   color: white;
-  opacity: 0.7;
   padding: 1rem;
   margin: 10px;
   border: none;
@@ -841,6 +843,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    padding-top: 30vh;
   }
   .contact .messageMeContainer .messageMe {
     width: 250px;
