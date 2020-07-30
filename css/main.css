@@ -544,45 +544,29 @@ a {
   text-align: center;
 }
 
-.about .jobs_job .skill_topic .html-skills-container .fa-html5 {
-  color: #ff7b00;
+.about .jobs_job .skill_topic .html-skills-container .fab {
+  color: white;
+  margin-top: 10px;
 }
 
-.about .jobs_job .skill_topic .html-skills-container .fa-css3-alt {
-  color: #1c51ff;
+.about .jobs_job .skill_topic .html-skills-container h3 {
+  margin-top: 18px;
 }
 
-.about .jobs_job .skill_topic .html-skills-container .fa-js-square {
-  color: #ffe81c;
-}
-
-.about .jobs_job .skill_topic .html-skills-container .fa-python {
-  color: black;
-}
-
-.about .jobs_job .skill_topic .html-skills-container .fa-bootstrap {
-  color: #731cff;
-}
-
-.about .jobs_job .skill_topic .html-skills-container .fa-github {
-  color: black;
-}
-
-.about .jobs_job .skill_topic .html-skills-container .fa-node-js {
-  color: green;
-}
-
-.about .jobs_job .skill_topic .html-skills-container .fa-react {
-  color: #00b7ff;
-}
-
-.about .jobs_job .skill_topic .html-skills-container b {
-  color: black;
+.about .jobs_job .skill_topic .html-skills-container h3 b {
+  color: white;
 }
 
 .about .jobs_job .skill_topic .html-skills-container .logos {
   width: 28px;
   height: auto;
+  margin-top: 10px;
+}
+
+.about .jobs_job .skill_topic .html-skills-container .mysql {
+  height: 40px;
+  width: auto;
+  margin-top: 6px;
 }
 
 .about .jobs_job h2,
@@ -814,6 +798,30 @@ a {
   }
   .about .about_bio-image .text-secondary {
     font-size: 4rem;
+  }
+  .about .jobs_job .skill_topic .html-skills-container .html-skills .fab {
+    color: white;
+    font-size: 100px;
+    margin-top: 20px;
+  }
+  .about .jobs_job .skill_topic .html-skills-container .html-skills h3 {
+    margin: 0px;
+    margin-top: 5px;
+  }
+  .about .jobs_job .skill_topic .html-skills-container .html-skills h3 b {
+    color: white;
+    font-size: 80px;
+    margin: 0px;
+  }
+  .about .jobs_job .skill_topic .html-skills-container .html-skills .logos {
+    height: 80px;
+    width: auto;
+    margin-top: 30px;
+  }
+  .about .jobs_job .skill_topic .html-skills-container .html-skills .mysql {
+    height: 80px;
+    width: auto;
+    margin-top: 35px;
   }
   .projects_items {
     -ms-grid-columns: (1fr)[2];

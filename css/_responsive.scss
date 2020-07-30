@@ -55,6 +55,42 @@
 				font-size: 4rem;
 			}
 		}
+
+		.jobs_job {
+			.skill_topic {
+				.html-skills-container {
+					.html-skills {
+						.fab {
+							color: white;
+							font-size: 100px;
+							margin-top: 20px;
+						}
+
+						h3 {
+							margin: 0px;
+							margin-top: 5px;
+							b {
+								color: white;
+								font-size: 80px;
+								margin: 0px;
+							}
+						}
+
+						.logos {
+							height: 80px;
+							width: auto;
+							margin-top: 30px;
+						}
+
+						.mysql {
+							height: 80px;
+							width: auto;
+							margin-top: 35px;
+						}
+					}
+				}
+			}
+		}
 	}
 
 	.projects {
