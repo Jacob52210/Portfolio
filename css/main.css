@@ -601,7 +601,7 @@ a {
 
 .contact {
   height: 100%;
-  padding-top: 30vh;
+  padding-top: 25vh;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -621,7 +621,7 @@ a {
 
 .contact h2 {
   position: absolute;
-  top: 150px;
+  top: 50px;
 }
 
 .contact .messageMeContainer {
@@ -632,23 +632,130 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(39, 39, 39, 0.5);
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding-top: 20vh;
+  margin-top: 20px;
+  padding: 20px;
 }
 
-.contact .messageMeContainer .messageMe {
-  background: none;
+.contact .messageMeContainer .topInputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px;
+}
+
+.contact .messageMeContainer .topInputs label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact .messageMeContainer .topInputs .name {
+  background-color: rgba(39, 39, 39, 0.6);
+  width: 70vw;
   color: white;
   padding: 1rem;
   margin: 10px;
   border: none;
   border-bottom: 2px solid #05fc1a;
-  height: 50px;
+}
+
+.contact .messageMeContainer .topInputs .name::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.contact .messageMeContainer .topInputs .name:-ms-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.contact .messageMeContainer .topInputs .name::-ms-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.contact .messageMeContainer .topInputs .name::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.contact .messageMeContainer .topInputs .name:focus {
+  outline: none;
+}
+
+.contact .messageMeContainer .topInputs .email {
+  background-color: rgba(39, 39, 39, 0.6);
+  width: 70vw;
+  color: white;
+  padding: 1rem;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid #05fc1a;
+}
+
+.contact .messageMeContainer .topInputs .email::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.contact .messageMeContainer .topInputs .email:-ms-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.contact .messageMeContainer .topInputs .email::-ms-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.contact .messageMeContainer .topInputs .email::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.contact .messageMeContainer .topInputs .email:focus {
+  outline: none;
+}
+
+.contact .messageMeContainer .messageMe {
+  background-color: rgba(39, 39, 39, 0.6);
+  color: white;
+  padding: 1rem;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid #05fc1a;
+  height: 100px;
+  width: 70vw;
   word-break: break-word;
 }
 
@@ -682,39 +789,6 @@ a {
 }
 
 .contact .messageMeContainer .messageMe:focus {
-  outline: none;
-}
-
-.contact .messageMeContainer .email {
-  background: none;
-  color: white;
-  padding: 1rem;
-  margin: 10px;
-  border: none;
-  border-bottom: 2px solid #05fc1a;
-}
-
-.contact .messageMeContainer .email::-webkit-input-placeholder {
-  color: white;
-  opacity: 0.7;
-}
-
-.contact .messageMeContainer .email:-ms-input-placeholder {
-  color: white;
-  opacity: 0.7;
-}
-
-.contact .messageMeContainer .email::-ms-input-placeholder {
-  color: white;
-  opacity: 0.7;
-}
-
-.contact .messageMeContainer .email::placeholder {
-  color: white;
-  opacity: 0.7;
-}
-
-.contact .messageMeContainer .email:focus {
   outline: none;
 }
 
@@ -834,22 +908,30 @@ a {
   }
   .contact h2 {
     font-size: 4rem;
+    top: 100px;
   }
   .contact .messageMeContainer {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+  }
+  .contact .messageMeContainer .topInputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding-top: 30vh;
+  }
+  .contact .messageMeContainer .topInputs .email {
+    width: 250px;
+  }
+  .contact .messageMeContainer .topInputs .name {
+    width: 250px;
   }
   .contact .messageMeContainer .messageMe {
-    width: 250px;
-  }
-  .contact .messageMeContainer .email {
-    width: 250px;
+    width: 525px;
   }
   .contact_list {
     -ms-grid-columns: (1fr)[2];

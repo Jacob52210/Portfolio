@@ -47,8 +47,18 @@
 			<section class="contact">
 				<h2>Contact Me...</h2>
 				<form class="messageMeContainer" action="https://formspree.io/mgenrrrp" method="POST">
-					<textarea type="text" class="messageMe" name="Message" placeholder="Message"></textarea>
-					<input type="email" name="Email" class="email" placeholder="E-Mail" required />
+					<div class="topInputs">
+						<label>
+							Email:
+							<input type="email" name="Email" class="email" placeholder="E-Mail" required />
+						</label>
+						<label>
+							Name:
+							<input type="text" name="Name" class="name" placeholder="Name" required />
+						</label>
+					</div>
+					<label>Message:</label>
+					<textarea type="text" class="messageMe" name="Message" placeholder="Message" required></textarea>
 					<button type="submit" class="messageMeSubBtn"><i type="submit" class="fas fa-paper-plane fa-2x"></i></button>
 				</form>
 

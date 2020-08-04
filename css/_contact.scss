@@ -1,6 +1,6 @@
 .contact {
 	height: 100%;
-	padding-top: 30vh;
+	padding-top: 25vh;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
@@ -12,48 +12,87 @@
 
 	h2 {
 		position: absolute;
-		top: 150px;
+		top: 50px;
 	}
 
 	.messageMeContainer {
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: rgba($primary-color, 0.5);
 		width: fit-content;
 		height: fit-content;
-		padding-top: 20vh;
+		margin-top: 20px;
+		padding: 20px;
+
+		.topInputs {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: fit-content;
+			margin: 20px;
+
+			label {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.name {
+				background-color: rgba($primary-color, 0.6);
+				width: 70vw;
+				color: white;
+				padding: 1rem;
+				margin: 10px;
+				border: none;
+				border-bottom: 2px solid $secondary-color;
+
+				&::placeholder {
+					color: white;
+					opacity: 0.7;
+				}
+
+				&:focus {
+					outline: none;
+				}
+			}
+
+			.email {
+				background-color: rgba($primary-color, 0.6);
+				width: 70vw;
+				color: white;
+				padding: 1rem;
+				margin: 10px;
+				border: none;
+				border-bottom: 2px solid $secondary-color;
+
+				&::placeholder {
+					color: white;
+					opacity: 0.7;
+				}
+
+				&:focus {
+					outline: none;
+				}
+			}
+		}
 
 		.messageMe {
-			background: none;
+			background-color: rgba($primary-color, 0.6);
 			color: white;
 			padding: 1rem;
 			margin: 10px;
 			border: none;
 			border-bottom: 2px solid $secondary-color;
-			height: 50px;
+			height: 100px;
+			width: 70vw;
 			word-break: break-word;
 
 			&::placeholder {
 				color: white;
 				opacity: 0.7;
 				align-items: center;
-			}
-
-			&:focus {
-				outline: none;
-			}
-		}
-
-		.email {
-			background: none;
-			color: white;
-			padding: 1rem;
-			margin: 10px;
-			border: none;
-			border-bottom: 2px solid $secondary-color;
-
-			&::placeholder {
-				color: white;
-				opacity: 0.7;
 			}
 
 			&:focus {

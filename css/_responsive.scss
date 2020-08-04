@@ -106,19 +106,27 @@
 	.contact {
 		h2 {
 			font-size: 4rem;
+			top: 100px;
 		}
 
 		.messageMeContainer {
 			width: fit-content;
-			flex-direction: row;
-			padding-top: 30vh;
 
-			.messageMe {
-				width: 250px;
+			.topInputs {
+				display: flex;
+				flex-direction: row;
+
+				.email {
+					width: 250px;
+				}
+
+				.name {
+					width: 250px;
+				}
 			}
 
-			.email {
-				width: 250px;
+			.messageMe {
+				width: 525px;
 			}
 		}
 	}
