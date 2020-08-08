@@ -38,8 +38,17 @@ a {
 }
 
 .home .name-container h2 {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   font-size: 1.2rem;
   font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
 }
 
 .home .name-container .home_name {
