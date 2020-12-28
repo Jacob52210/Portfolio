@@ -814,6 +814,7 @@ a {
   cursor: pointer;
   color: white;
   margin: auto;
+  margin-top: 10px;
 }
 
 .contact .messageMeContainer .fa-paper-plane:hover {
